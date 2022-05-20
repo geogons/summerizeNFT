@@ -2,7 +2,6 @@
   Summerize NFT
 </h1>
 
-![Uploading Снимок экрана 2022-05-20 в 5.38.25 AM.png…]()
 <!--  -->
 
 
