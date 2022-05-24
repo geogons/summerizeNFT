@@ -1,25 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 export default function HeroSection() {
-  const data = ["HOME", "GALLERY", "BLOG", "KNET"];
-
   return (
-    <div className=" items-center relative  min-h-screen flex justify-around  flex-wrap px-5">
-     
-
+    <div className="items-center relative mb-60 flex justify-around  flex-wrap px-5">
       <div className="max-w-2xl relative">
-        <h1 className=" text-4xl md:text-4xl font-poppins text-left uppercase">
+        <h1 className=" text-4xl md:text-4xl font-Poppins font-bold text-left">
           Marketplace to Create, Buy<br></br>& Sell NFTs{" "}
         </h1>
-        <p className=" text-sm md:text-sm text-left font-poppins my-9">
+        <p className=" text-sm md:text-sm text-left font-Poppins my-9">
           Nft Marketplace brings together artists, creators and crypto
           enthusiasts on a<br></br>
           single platform ro create and explore top NFTs.
         </p>
         <div className="flex justify-between max-w-xs my-5 ">
-          <button className="text-white bg-gradient-to-r from-[#EB3349] to-[#F45C43] px-8 py-2 rounded-lg text-xl font-bold flex items-center">
+          <button className="text-white bg-gradient-to-r from-[#EB3349] to-[#F45C43] px-8 py-2 rounded-lg text-xl font-Poppins font-bold flex items-center">
             Mint NFT
           </button>
-          <button className="text-[#F45C43] px-8 py-2 text-2xl font-bold flex items-center">
+          <button className="text-[#F45C43] px-8 py-2 text-2xl font-Poppins font-bold flex items-center">
             Explore
           </button>
         </div>

@@ -1,17 +1,16 @@
-/* eslint-disable @next/next/no-img-element */
+// import { useAddress, useMetamask, useNFTDrop } from '@thirdweb-dev/react';
 
-export default function MintNFT() {
-    
-    return (
-        <div className=" items-center relative  min-h-screen flex justify-around  flex-wrap px-5">
-
-<iframe
-src="https://gateway.ipfscdn.io/ipfs/QmWadjbCefyTnh8DMNBJyvZiVhXmFvrFbKzYqzY7WAGEHf/drop.html?contract=0xFAFF668F1fA2260aD496f555Eeb259F9E25DA51B&chainId=80001"
-width="600px"
-height="600px"
-></iframe>
-      </div>
-    );
-  }
-
-  
+// export default function ClaimButton () {
+//   const connectWithMetamask = useMetamask();
+//   const nftDrop = useNFTDrop('0xeb36ae2fcf66d48cbb48a1213be3a2395ce638d63af1959f9fcd382549d65a58');
+//   const address = useAddress();
+//   return (
+//     <div>
+//       {address ? (
+//         <button onClick={() => nftDrop?.claim(1)}>Claim 1</button>
+//       ) : (
+//         <button onClick={connectWithMetamask}>Connect Wallet</button>
+//       )}
+//     </div>
+//   );
+// };

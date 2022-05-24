@@ -1,17 +1,14 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import { MoralisProvider } from "react-moralis";
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { ThirdwebProvider, ChainId } from "@thirdweb-dev/react";
 
-const serverUrl = "https://7vdeu3klidts.usemoralis.com:2053/server" //process.env.NEXT_PUBLIC_SERVER_URL;
-const appId = "bZtfqtoCFfTVJYqyigsAcXZ3kyYo4P08mAtjmH9b" //process.env.NEXT_PUBLIC_APP_ID;
-// Moralis.start({serverUrl,appId})
+export default function MyApp({ Component, pageProps }: AppProps) {
 
-function MyApp({ Component, pageProps }: AppProps) {
+  const desiredChainId = 80001;
+
   return (
-    <MoralisProvider serverUrl={serverUrl} appId={appId}>
+    <ThirdwebProvider desiredChainId={desiredChainId}>
       <Component {...pageProps} />
-     </MoralisProvider>
+      </ThirdwebProvider>
   );
 }
-
-export default MyApp
