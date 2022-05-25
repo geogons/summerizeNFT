@@ -27,7 +27,7 @@ export default function Footer() {
 
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/summerize.io"
                   target="_blank"
                   className="text--400 hover: active:text--600 transition duration-100"
                 >
@@ -43,7 +43,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.instagram.com/summerize.app/ "
                   target="_blank"
                   className="text--400 hover: active:text--600 transition duration-100"
                 >

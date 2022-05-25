@@ -94,7 +94,7 @@ export const Web3AuthProvider: FunctionComponent<IWeb3AuthState> = ({ children, 
       try {
         const { Web3Auth } = await import("@web3auth/web3auth");
         const { OpenloginAdapter } = await import("@web3auth/openlogin-adapter");
-        const clientId = "BKPxkCtfC9gZ5dj-eg-W6yb5Xfr3XkxHuGZl2o2Bn8gKQ7UYike9Dh6c-_LaXlUN77x0cBoPwcSx-IVm0llVsLA";
+        const clientId = "BHZpMyvyaC7S3aG4dA4rtPzqcCr8vn3hGwzBaJcqG8VPtpbVs1J29-pXdqdFN2ib_UXPI1nc-uGzjuEsv5YFL0Y";
         setIsLoading(true);
         const web3AuthInstance = new Web3Auth({
           chainConfig: currentChainConfig,
