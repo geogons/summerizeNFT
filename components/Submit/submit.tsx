@@ -33,7 +33,7 @@ export default function Submit() {
           </div>
           <img className="pb-[25px]" alt="" src="mint/line.png" />
           <div className="">
-            <p className="font-Poppins text-[14px] font-[500] text-[#888888]">Available</p>
+            <p className="font-Poppins text-[14px] font-[500] text-[#888888]">Item</p>
             <p className="font-Poppins text-[25px] font-[600] text-[#2E2E2E]">ID: 1</p>
           </div>
         </div>
@@ -42,8 +42,9 @@ export default function Submit() {
     <div className="flex flex-col max-w-[750px] bg-white bg-opacity-70 rounded-xl p-4 relative">
       <div className="relative">
         <div className="relative pt-[36px] pl-[46px] pr-[60px]">
-          <p className="font-Poppins text-[41px] font-[600] pb-[14px] ">Medal of Alcoriz</p>
+          <p className="font-Poppins text-[41px] font-[600] pb-[14px] ">Summerize.NFT</p>
           <p className="font-Poppins text-[20px] font-[600] pb-[14px] ">ChainID : Polygon</p>
+          <p className="font-Poppins text-[20px] font-[600] pb-[14px] ">Holders : 1</p>
           <p className="font-Poppins text-[20px] font-[600] pb-[14px] ">Contract : <a href="https://polygonscan.com/address/0xecf16a42b41dbfc9307f76f32e3f29057d6bea10">0xecf16a4...ea10</a></p>
           <p className="font-Poppins text-[20px] font-[600] pb-[14px] ">IPFS : Verified</p>
         </div>
